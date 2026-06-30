@@ -1,0 +1,20 @@
+[project]
+name = "analysis-aur"
+version = "0.0.1"
+description = "CLI para detectar y eliminar paquetes AUR comprometidos por la campaña Atomic Arch"
+requires-python = ">=3.10"
+dependencies = [
+    "typer",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
