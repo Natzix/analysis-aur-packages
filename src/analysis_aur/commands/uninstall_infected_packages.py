@@ -1,12 +1,12 @@
 import subprocess
 
 import typer
-from commands.local_packet_analysis import load_list
+
+from analysis_aur.commands.local_packet_analysis import load_list
 
 app = typer.Typer()
 
 
-@app.command()
 def uninstall():
     packages = load_list()
     if not packages:
