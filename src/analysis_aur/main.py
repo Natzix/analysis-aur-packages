@@ -1,7 +1,7 @@
-# src/analysis-aur/main.py
 import typer
-from commands.local_packet_analysis import scan
-from commands.uninstall_infected_packages import uninstall
+
+from analysis_aur.commands.local_packet_analysis import scan
+from analysis_aur.commands.uninstall_infected_packages import uninstall
 
 app = typer.Typer()
 
