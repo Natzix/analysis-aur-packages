@@ -1,4 +1,4 @@
-# analysis-aur
+# analysis-aur-packages
 
 CLI escrita en Python (Typer) para detectar y eliminar paquetes AUR comprometidos por la campaña de malware **"Atomic Arch"** (junio 2026).
 
